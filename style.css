@@ -1,0 +1,140 @@
+h3{
+font-family: Sora;
+font-size: 30px;
+font-weight: 700;
+line-height: 38px;
+letter-spacing: 0em;
+text-align: left;
+margin-left: 150px;
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(0,0,0,.5);
+    border-color: rgba(0,0,0,.1);
+    margin-right: -200px;
+}
+   
+#ul{
+    margin-right: 150px;
+    
+}
+#nav{
+    
+    background-color: rgb(199, 238, 203);
+    border-bottom: solid 1px black;
+}
+
+.sec{
+    background-color: #457B9D;
+    border-radius: 40px;
+    width: fit-content;
+    margin-top: 30px;
+    
+    
+
+    
+}
+.img{
+    width: 300px;
+    
+    
+}
+.container{
+    background-color:  rgb(199, 238, 203);
+    
+    margin-top: px;
+    
+}
+#cono{
+    
+}
+.tout2{
+    background-color:  rgb(199, 238, 203);
+    margin-top: ;
+    
+
+}
+.Hi{
+    color: #457B9D;
+    margin-top: 60px;
+}
+#d2{
+    margin-left: -10px;
+}
+.ing{
+    width: 350px;
+    margin-top: 40px;
+}
+.about{
+    
+    margin-top: 90px;
+}
+#con2{
+    background-color: white;
+}
+#ht{
+    width: 102px
+}
+#htt{
+    width: 60px
+}
+#cont{
+    background-color:  rgb(199, 238, 203);
+    text-align: center;
+    padding: 50px;
+    
+}
+.Skill{
+    color: #457B9D;
+}
+.col{
+    margin-top: px;
+}
+#conf{
+    background-color: white;
+    
+}
+.pro{
+    text-align: center;
+    margin-top: 30px;
+}
+.figma{
+    color: #457B9D;
+    margin-top: -10px;
+}
+
+.ho1{
+    width: 290px;   
+}
+#homm{
+    
+}
+#id{
+    margin-top: 30px;
+}
+
+
+
+.foo{
+    width: 40px;
+}
+footer{
+    background-color:  rgb(199, 238, 203);
+    margin-top: 30px;
+}
+#fin{
+   padding: 30px;
+
+}
+.down{
+    background-color: #457B9D;
+    color: white;
+}
+.copyright{
+    margin-top: 30px;
+}
+#moo{
+    box-shadow: 0px 4px 4px 0px #00000040;
+    ;
+}
+
