@@ -3,42 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Document</title> <source>
     <link rel="stylesheet" href="style.css">
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
     
 </head>
 <body>
-    <nav id="nav" class="navbar navbar-expand-lg navbar-light sticky-top ">
-        <div class="container-fluid">
-          <a class="navbar-brand fw-bold " href="#">FRIZAN</a>
-          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div>
-            <div class="navbar-collapse collapse" id="navbarSupportedContent" style="">
-                <ul  class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a  class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"> Skill</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Project</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
-                  </li>
-                </ul>
-              </div>
-          </div>
+        <nav id="navv" class="navbar navbar-expand-lg navbar-light ">
+           <strong> <a class="navbar-brand" href="#">Rizfan</a> </strong> 
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
           
-        </div>
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Skill</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Project</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+ 
+   
     
         
     <div class="tout2">
@@ -52,8 +51,14 @@
                          repre eaque nisi ea minus distinctio 
                      </p>
                      </div>
-                     <input class="down" type="button" value="Download Cv">
-                     <input type="button" value="Explore More">
+                     <div>
+                        <button class="dwcv" type="submit">Download Cv
+                            <img class="dwn" src="image/dwn.png" alt="">
+                        </button>
+                        <button id="cvv" type="submit">Explore More
+
+                        </button>
+                     </div>
                  </div>
                  <div id="d2" class="col-md-4 col-sm-12">
                      <section class="sec">
@@ -90,7 +95,7 @@
             </div>
         </div>
     </div>
-    <div id="cont" class="containere">
+    <div id="cont" class=" col-12 containere">
         <div class="col">
             <h5 class="Skill">Skills</h5>
             <h2>What I am capable of?</h2>
@@ -108,55 +113,108 @@
         </div>
     </div>
 
-    <div id="conf" class="container">
-        <div class="">
-            <div class="pro">
-                <h5 class="Skill">Projet</h5>
-                <h1>What I have made?</h1><br>
-            </div>
-            
-            <div class="row">
-                <div id="moo" class="col" > 
-                    <img class="ho1" src="image/homme1.png" alt="">
-                    <h6>Portfolio Website Designe</h6>
-                    <p>Lorem ipsum dolor sit consecteur.</p>
-                    <p class="figma">figma</p>
+    <div class="porfo">
+        <section class="div">
+            <div class="container">
+                <h5 class="Skill">Projects</h5>
+                        <h2>What I have made?</h2><br>
+                <div class="row ">
+                    <div class="col-md-4" >
+                            <div class="box">
+                                <img src="image/homme1.png" alt="" width="289">
+                                <div class="figma">
+                                    <p><strong>Porfolio Website Design</strong><br>
+                                        lorem ipsum sit amet consectetur
+                                    </p>
+                                    <p class="Ho">Figma</p>
+                                </div>
+                            </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="box">
+                            <img src="image/homme2.png" alt="" width="289">
+                            <div class="figma">
+                                <p><strong>LitterCycle Echange</strong><br>
+                                    lorem ipsum sit amet consectetur
+                                </p>
+                                <p class="Ho">Live view &nbsp;&nbsp;&nbsp;&nbsp; Github &nbsp;&nbsp;&nbsp;&nbsp; Figma</p>
+                                
+                            </div>
+                        </div>
+                    </div> 
+                
+                    <div class="col-md-4">
+                        <div class="box">
+                            <img src="image/homme3.png" alt="" width="289">
+                            <div class="figma">
+                                <p><strong>Edubix</strong><br>
+                                        lorem ipsum sit amet consectetur
+                                    </p>
+                                    <p class="Ho">Live view &nbsp;&nbsp;&nbsp;&nbsp; Github</p>
+                                    
+                                </div>
+                            </div>
+                        </div>  
+                                
+                    
+                    </div>
                 </div>
-                <div id="moo" class="col"> 
-                    <img class="ho1" src="image/homme2.png" alt="">
-                    <h6>Portfolio Website Designe</h6>
-                    <p>Lorem ipsum dolor sit consecteur.</p>
-                    <p class="figma">figma</p>
-                </div>
-                <div id="moo" class="col"> 
-                    <img class="ho1" src="image/homme3.png" alt="">
-                    <h6>Portfolio Website Designe</h6>
-                    <p>Lorem ipsum dolor sit consecteur.</p>
-                    <p class="figma">figma</p>
-                </div>
             </div>
-        </div>
-        <div id="id" class="row">
-            <div id="moo" class="col">
-                <img class="ho1" src="image/homme4.png" alt="">
-                <h6>PPDB SMK Telesandi Bekasi</h6>
-                <p>Lorem ipsum dolor sit consecteur.</p>
-                <p class="figma">Live view</p>
-            </div>
-            <div id="moo" class="col">
-                <img class="ho1" src="image/homme4.png" alt="">
-                <h6>PPDB SMK Telesandi Bekasi</h6>
-                <p>Lorem ipsum dolor sit consecteur.</p>
-                <p class="figma">Live view</p>
-            </div>
-            <div id="moo" class="col">
-                <img class="ho1" src="image/homme4.png" alt="">
-                <h6>PPDB SMK Telesandi Bekasi</h6>
-                <p>Lorem ipsum dolor sit consecteur.</p>
-                <p class="figma">Live view</p>
-            </div>
-        </div>
+        </section>
     </div>
+    <div class="porfo">
+        <section class="div">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-md-4" >
+                        
+                        <div class="box">
+                            <img src="image/homme4.png" alt="" width="289">
+                            <div class="figma">
+                                <p><strong>PPDB SMK Telesanl Bekasi</strong><br>
+                                    lorem ipsum sit amet consectetur
+                                </p>
+                                <p class="Ho">Live view</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <div class="box">
+                            <img src="image/homme4.png" alt="" width="289">
+                            <div class="figma">
+                                <p><strong>PPDB SMK Telesanl Bekasi</strong><br>
+                                    lorem ipsum sit amet consectetur
+                                </p>
+                                <p class="Ho">Live view</p>
+                                
+                            </div>
+                        </div>
+                    </div> 
+                    
+                        <div class="col-md-4">
+                            <div class="box">
+                                <img src="image/homme4.png" alt="" width="289">
+                                <div class="figma">
+                                    <p><strong>PPDB SMK Telesanl Bekasi</strong><br>
+                                        lorem ipsum sit amet consectetur
+                                    </p>
+                                    <p class="Ho">Live view</p>
+                                    
+                                </div>
+                            </div>
+                        </div>  
+                            
+                
+                </div>
+            
+            </div>
+        </section>
+    </div>
+    
+    
+    
     <footer>
         <div id="fin" class="container">
             <div class="row">
@@ -179,6 +237,11 @@
         </div>
     </footer>
     
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
 </body>
 </html>
